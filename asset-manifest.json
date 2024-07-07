@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Miraworld/static/css/main.8d2fe85b.css",
+    "main.js": "/Miraworld/static/js/main.fa52180e.js",
+    "static/js/453.364a77cb.chunk.js": "/Miraworld/static/js/453.364a77cb.chunk.js",
+    "static/media/thumbnail4.png": "/Miraworld/static/media/thumbnail4.e34afa6c5561f3117302.png",
+    "static/media/thumbnail8.png": "/Miraworld/static/media/thumbnail8.80d857e9c212045f6efb.png",
+    "static/media/thumbnail5.png": "/Miraworld/static/media/thumbnail5.9a1043ddda8747245faf.png",
+    "static/media/thumbnail7.png": "/Miraworld/static/media/thumbnail7.2409c5eef5ea0b8c2130.png",
+    "static/media/thumbnail6.png": "/Miraworld/static/media/thumbnail6.922e46bb7429a189f630.png",
+    "static/media/thumbnail2.png": "/Miraworld/static/media/thumbnail2.a7ae1c5718ce05f4c2f4.png",
+    "static/media/st1.jpg": "/Miraworld/static/media/st1.eface8efbde0fe688073.jpg",
+    "static/media/s4.jpg": "/Miraworld/static/media/s4.f5efdca5aebc9133d74c.jpg",
+    "static/media/s2.jpg": "/Miraworld/static/media/s2.28e70e36b2f83e6ad1f1.jpg",
+    "static/media/s5.jpg": "/Miraworld/static/media/s5.c7b9a23013a5b8c1d53b.jpg",
+    "static/media/s6.jpg": "/Miraworld/static/media/s6.66a2178629fc8a49f594.jpg",
+    "static/media/s1.jpg": "/Miraworld/static/media/s1.6182e9abe708558beac7.jpg",
+    "static/media/s3.jpg": "/Miraworld/static/media/s3.046b8ad2eee302011c5e.jpg",
+    "static/media/s7.jpg": "/Miraworld/static/media/s7.299d9fc3c99d4659a448.jpg",
+    "index.html": "/Miraworld/index.html",
+    "main.8d2fe85b.css.map": "/Miraworld/static/css/main.8d2fe85b.css.map",
+    "main.fa52180e.js.map": "/Miraworld/static/js/main.fa52180e.js.map",
+    "453.364a77cb.chunk.js.map": "/Miraworld/static/js/453.364a77cb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8d2fe85b.css",
+    "static/js/main.fa52180e.js"
+  ]
+}
