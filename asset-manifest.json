@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Miraworld/static/css/main.f67c0344.css",
-    "main.js": "/Miraworld/static/js/main.143bbba9.js",
+    "main.css": "/Miraworld/static/css/main.37194f4f.css",
+    "main.js": "/Miraworld/static/js/main.5435a49d.js",
     "static/js/453.364a77cb.chunk.js": "/Miraworld/static/js/453.364a77cb.chunk.js",
     "static/media/Loginpic.png": "/Miraworld/static/media/Loginpic.0cf744ca3ba12f4ebf6d.png",
     "static/media/thumbnail4.png": "/Miraworld/static/media/thumbnail4.e34afa6c5561f3117302.png",
@@ -11,6 +11,7 @@
     "static/media/thumbnail6.png": "/Miraworld/static/media/thumbnail6.922e46bb7429a189f630.png",
     "static/media/thumbnail2.png": "/Miraworld/static/media/thumbnail2.a7ae1c5718ce05f4c2f4.png",
     "static/media/Shoe-women.png": "/Miraworld/static/media/Shoe-women.057cdfb6fc2b25b605c8.png",
+    "static/media/Createacctpic.jpg": "/Miraworld/static/media/Createacctpic.0446f7c7d35b28c63ec8.jpg",
     "static/media/Rectangle 14926.png": "/Miraworld/static/media/Rectangle 14926.cf811938603d36e0b42f.png",
     "static/media/st1.jpg": "/Miraworld/static/media/st1.eface8efbde0fe688073.jpg",
     "static/media/Rectangle 26.png": "/Miraworld/static/media/Rectangle 26.8c95f12e1f0585a83312.png",
@@ -25,12 +26,12 @@
     "static/media/cameron.png": "/Miraworld/static/media/cameron.cedb1ba5832f609542da.png",
     "static/media/s7.jpg": "/Miraworld/static/media/s7.299d9fc3c99d4659a448.jpg",
     "index.html": "/Miraworld/index.html",
-    "main.f67c0344.css.map": "/Miraworld/static/css/main.f67c0344.css.map",
-    "main.143bbba9.js.map": "/Miraworld/static/js/main.143bbba9.js.map",
+    "main.37194f4f.css.map": "/Miraworld/static/css/main.37194f4f.css.map",
+    "main.5435a49d.js.map": "/Miraworld/static/js/main.5435a49d.js.map",
     "453.364a77cb.chunk.js.map": "/Miraworld/static/js/453.364a77cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f67c0344.css",
-    "static/js/main.143bbba9.js"
+    "static/css/main.37194f4f.css",
+    "static/js/main.5435a49d.js"
   ]
 }
