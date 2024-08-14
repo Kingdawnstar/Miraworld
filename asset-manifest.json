@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Miraworld/static/css/main.7ba1e46a.css",
-    "main.js": "/Miraworld/static/js/main.492a389d.js",
+    "main.css": "/Miraworld/static/css/main.36852115.css",
+    "main.js": "/Miraworld/static/js/main.5270db96.js",
     "static/js/453.364a77cb.chunk.js": "/Miraworld/static/js/453.364a77cb.chunk.js",
     "static/media/video.mp4": "/Miraworld/static/media/video.3fa6a79d12eeb0bc2c5b.mp4",
     "static/media/Loginpic.png": "/Miraworld/static/media/Loginpic.0cf744ca3ba12f4ebf6d.png",
@@ -27,12 +27,12 @@
     "static/media/cameron.png": "/Miraworld/static/media/cameron.cedb1ba5832f609542da.png",
     "static/media/s7.jpg": "/Miraworld/static/media/s7.299d9fc3c99d4659a448.jpg",
     "index.html": "/Miraworld/index.html",
-    "main.7ba1e46a.css.map": "/Miraworld/static/css/main.7ba1e46a.css.map",
-    "main.492a389d.js.map": "/Miraworld/static/js/main.492a389d.js.map",
+    "main.36852115.css.map": "/Miraworld/static/css/main.36852115.css.map",
+    "main.5270db96.js.map": "/Miraworld/static/js/main.5270db96.js.map",
     "453.364a77cb.chunk.js.map": "/Miraworld/static/js/453.364a77cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ba1e46a.css",
-    "static/js/main.492a389d.js"
+    "static/css/main.36852115.css",
+    "static/js/main.5270db96.js"
   ]
 }
