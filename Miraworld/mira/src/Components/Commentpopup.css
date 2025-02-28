@@ -1,0 +1,150 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Dark overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure it appears on top */
+}
+
+.popup {
+    background: white;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex; /* Change to flex for side-by-side layout */
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.popup-content {
+    display: flex;
+    width: 100%; /* Take full width */
+    height: 100%; /* Ensure it takes full height of popup */
+}
+
+.post-image {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 100%; /* Adjust height to fit with the comments section */
+    border-radius: 8px 0 0 8px; /* Rounded corners on the left */
+}
+
+.comments-section {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 60%; /* Adjust size as needed */
+    
+}
+ .comments-section h4{
+    margin-bottom: 15px;
+    margin-top: 10px;
+ }
+.comment-wrap{
+    max-height: 400px;
+    overflow-y: auto; /* Scroll if too many comments */
+    scrollbar-width: none;
+}
+
+.comment {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background: var(--gray-back);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.comment-profile {
+    width: 25px; /* Adjust size as needed */
+    height: 25px; /* Adjust size as needed */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.content .paragraph{
+    font-size: small;
+    
+}
+
+.content .time{
+    color: var(--primary-color);
+    font-size: 0.65rem;
+}
+
+.comment-info h4 {
+    margin: 0;
+    font-size: 12px;
+}
+
+.comment-info p {
+    margin: 0;
+    font-size: 12px;
+}
+
+
+.comment-form {
+    display: flex;
+    width: 100%; /* Full width for the form */
+    justify-content: space-between;
+    /* height: 100px; */
+    border-top:1px solid hsl(0, 0%, 80%);
+}
+
+.input {
+    border: 1px solid #ccc;
+    height: 40px;
+    margin-top: 5%;
+    border-radius: 10px;
+    width: 100%; /* Adjust width to fit */
+}
+
+.comment-form input {
+    padding: 8px 10px;
+    width: 80%; /* Fill the input space */
+    border: none;
+}
+
+.audio-mic {
+    width: 70px;
+    margin-left: 30px;
+    margin-top: 5%;
+}
+
+.audio-mic img {
+    width: 55%;
+   
+}
+
+.first-img{
+    width: 15px;
+    margin-left: 10px;
+}
+
+.sec-img{
+    width: 13px;
+    margin-top: 10px;
+    margin-right: 2px;
+}
+

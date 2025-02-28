@@ -1,0 +1,46 @@
+.MyOrders .myOrder-aside{
+    margin-top: 5px;
+}
+ .myOrder-container{
+    display: grid;
+    grid-template-columns: 18vw auto ;
+    position: relative;
+    background: var(--white-bg);
+    padding: 10px;
+}
+
+.myorder-middle{
+    margin-top: 80px;
+}
+
+.myorder-heading{
+    display: flex;
+    border-bottom: 1px solid var(--primary-color);
+    width: 35%;
+    padding: 5px;
+    margin-left: 10px;
+    color: var(--dark-font);
+}
+
+.myorder-heading .mytitle-img{
+    width: 9px;
+    height: 9px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.myorder-heading .mytitle-img img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    
+}
+
+.mysec-title{
+    color: var(--primary-color);
+}
+
+.myorder-heading span{
+    font-size: 0.65rem;
+    padding-bottom: 0;
+}

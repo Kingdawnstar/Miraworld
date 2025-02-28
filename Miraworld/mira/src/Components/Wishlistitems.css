@@ -1,0 +1,132 @@
+.Wishlistitems .wish-wrap .lists{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+    max-height: 500px;
+    max-width: 1300px;
+    scrollbar-width: none;
+    overflow-y: auto;
+}
+
+.Wishlistitems{
+    margin-top: 80px;
+    padding: 20px;
+
+}
+
+.Wishlistitems .wish-wrap h5{
+    margin-bottom: 40px;
+    color: var(--dark-font);
+}
+
+.Wishlistitems .wish-wrap .lists .list{
+    box-shadow: 0 1px 1px black;
+    padding: 10px 3px;
+    border-radius: 5px;
+}
+
+.Wishlistitems .wish-wrap .lists .list .list-upper{
+    padding: 10px;
+    width: auto;
+    height: 160px;
+    position: relative;
+}
+
+.Wishlistitems .wish-wrap .lists .list .list-upper .main{
+    width: 95%;
+    height: 98%;
+    right: 2%;
+    top: 0;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Wishlistitems .wish-wrap .lists .list .list-upper .Lovethis{
+    width: 1.3rem;
+    top: 70%;
+    right: 10%;
+    height: 1.3rem;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 3px;
+    position: absolute;
+}
+
+.Wishlistitems .wish-wrap .lists .list .list-desc{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.Wishlistitems .wish-wrap .lists .list .list-desc .list-desc-upper{
+    display: flex;
+    align-items: center;
+    color: var(--dark-font);
+    justify-content: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.Wishlistitems .wish-wrap .lists .list .list-desc .list-desc-lower{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Wishlistitems .wish-wrap .lists .list .list-desc .list-desc-lower .desc-lower-text{
+    margin-left: 10px;
+}
+
+.Wishlistitems .wish-wrap .lists .list .list-desc .list-desc-lower p{
+    font-size: 0.7rem;
+    color: var(--dark-font);
+}
+
+.Wishlistitems .wish-wrap .lists .list .list-desc .list-desc-lower small{
+    font-size: 0.7rem;
+    color: #fcbf49;
+}
+
+.Wishlistitems .wish-wrap .lists .list button{
+    width: 90%;
+    margin-left: 13px;
+    background-color: #fcbf49;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.Wishlistitems .wish-wrap .lists .list .list-desc .list-desc-upper p{
+    font-weight: bold;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    font-size: 0.8rem;
+}
+
+.Wishlistitems .wish-wrap .lists .list .list-desc .list-desc-upper h2{
+    margin-left: 3rem;
+    font-size: 1.2rem;
+    color: rgb(83, 180, 0);
+}
+
+.Wishlistitems .wish-wrap .lists .list .list-desc img{
+    position: relative;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    width: 1.7rem;
+    height: 1.7rem;
+    border: 2px solid #fcbf49;
+    border-radius: 50%;
+}
+
+
+
+
+

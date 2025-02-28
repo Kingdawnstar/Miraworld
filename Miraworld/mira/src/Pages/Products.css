@@ -1,0 +1,11 @@
+.Products .Product-container{
+    display: grid;
+    grid-template-columns: 18vw 18vw auto;
+    position: relative;
+    background: var(--white-bg);
+    
+}
+
+.Products .Product-container .Product-aside{
+    margin-top: 5px;
+}

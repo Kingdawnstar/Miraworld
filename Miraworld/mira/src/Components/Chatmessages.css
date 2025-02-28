@@ -1,0 +1,124 @@
+.Chatmessages-main{
+    margin-top: 80px;
+    width: 100%;
+    box-shadow: 0 1px 1px gray;
+    height: 400px;
+    
+}
+
+.Chatmessages-main .Profile{
+    margin-top: 30px;
+    display: flex;
+}
+
+.Chatmessages-main .Profile .prof-img{
+    width: 50px;
+    border: 2px ;
+    border-radius: 50%;
+    margin-right: 20px
+}
+
+.Chatmessages-main .Profile .name-status{
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: var(--dark-font);
+}
+
+.Chatmessages-main .Profile .name-status p{
+    font-weight: bold;
+    line-height: 15px;
+    color: var(--dark-font);
+}
+
+.Chatmessages-main .Chats-wrap{
+    background: var(--grey-font);
+    padding: 20px;
+    margin-top: 5px;
+    color: var(--dark-font);
+    height: 380px;
+    scrollbar-width: none;
+    overflow-y: auto;
+}
+
+
+.Chatmessages-main .Chats-wrap .date{
+    font-size: 1.1rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 40%;
+}
+
+.Chatmessages-main .Chats-wrap .message{
+    padding: 20px;
+    color: var(--dark-font);
+    background: var(--white-bg);
+    align-items: flex-start;
+    border-radius: 10px;
+    width: 65%;
+    margin-top: 20px;
+}
+
+.Chatmessages-main .Chats-wrap .message p{
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Chatmessages-main .Chats-wrap .message small{
+    margin-left: 85%;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.Chatmessages-main .Chats-wrap .sent{
+    background: #fcbf49;
+    margin-left: 35%;
+    color: #fff;
+}
+
+.Chatmessages-main .message-box{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white-bg);
+}
+
+.Chatmessages-main .message-box .input-box{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    border-radius: 30px;
+    width: 80%;
+}
+
+.Chatmessages-main .message-box .input-box input{
+    width: 400px;
+    border: none;
+    margin-left: 10px;
+    outline: 0;
+    background: transparent;
+    
+}
+
+.Chatmessages-main .message-box .input-box .chat{
+    width: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.Chatmessages-main .message-box .input-box .search{
+    width: 15px;
+    margin-left: 150px;
+}
+
+.Chatmessages-main .message-box .mic{
+    width: 80px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+h4{
+    color: var(--dark-font);
+}

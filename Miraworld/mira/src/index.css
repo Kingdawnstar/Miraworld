@@ -1,0 +1,113 @@
+
+.light-mode{
+  --primary-color:#fcbf49;
+  --white-bg: #fff;
+  --dark-bg: #000;
+  --white-font: #fff;
+  --dark-font:#000;
+  --grey-bg:#f8f6f6f3;
+  --grey-back:#f8f6f6f3;
+  --grey-font:#f8f6f3;
+  --green:rgb(83, 180, 0);
+  
+} 
+
+.dark-mode{
+  --primary-color:#fcbf49;
+   --white-bg: radial-gradient(circle at -4% -12.9%, rgb(74, 98, 110) 0.3%, rgb(30, 33, 48) 90.2%);
+  --dark-bg: #fff;
+  --white-font: #000;
+  --dark-font:#fff;
+  --grey-bg:#f8f6f6f3;
+  --grey-font:#ccc;
+  --grey-back:radial-gradient(circle at -4% -12.9%, rgb(74, 98, 110) 0.3%, rgb(30, 33, 48) 90.2%);
+  --green:rgb(83, 180, 0);
+  
+}
+
+.linear-mode{
+  --dark-bg: #fff;
+  --white-font: #000;
+  --white-bg: linear-gradient(to right, rgb(25, 42, 51), rgb(25, 26, 34));
+  --dark-font:#fff;
+  --grey-bg:#f8f6f6f3;
+  --grey-font:#ccc;
+  --green:rgb(83, 180, 0);
+}
+
+.black-mode{
+  --dark-bg: #fff;
+  --white-font: #000;
+  --white-bg:  #353232;
+  --dark-font:#fff;
+  --grey-bg:#f8f6f6f3;
+  --grey-font:#ccc;
+  --green:rgb(83, 180, 0);
+}
+
+.gray-mode{
+  --dark-bg: #fff;
+  --white-font: #000;
+  --white-bg:  #ccc;
+  --dark-font:#fff;
+  --grey-bg:#f8f6f6f3;
+  --grey-font:#ccc;
+  --green:rgb(83, 180, 0);
+}
+
+
+.brown-mode{
+  --dark-bg: #fff;
+  --white-font: #000;
+  --white-bg:  rgb(214, 161, 111);
+  --dark-font:#fff;
+  --grey-bg:#f8f6f6f3;
+  --grey-font:#ccc;
+  --green:rgb(83, 180, 0);
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  padding: 0;
+  
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+code {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: var(--dark-font);
+}
+
+img{
+  cursor: pointer;
+}
+
+.Navbar{
+  display: flex;
+  padding-top: 5px;
+  align-items: center;
+  margin-top: 0;
+  margin-left: 7px;
+  margin-right: 7px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+}

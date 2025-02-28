@@ -1,0 +1,142 @@
+.cat-links{
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+
+
+.cat-link{
+    background: #f8f6f6f3;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 0.65rem;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.active{
+    color: #fff;
+    background: #fcbf49;
+}
+
+.cats{
+    max-width: 1090px;
+    background: var(--white-bg);
+    padding: 10px;
+    overflow-x: auto;
+    display: grid;
+    padding: 5px;
+    justify-content: flex-start;
+    grid-template-columns: repeat(8, 1fr);
+    scrollbar-width: none;
+    gap: 20px;
+}
+
+.cats .cat{
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0  1px 1px var(--primary-color);
+    background: var(--white-bg);
+    padding-bottom: 20px;
+}
+
+.cats .cat .thumb-nail{
+    width: 300px;
+    height: 180px;
+    
+}
+
+.cats .cat .thumb-wrap{
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+}
+
+.cats .top-img{
+    display: flex;
+    position: absolute;
+    top: 4%;
+    left: 65%;
+}
+
+.top-img .heart{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+
+
+.cats .top-img .share{
+    width: 25px;
+    height: 25px;
+}
+
+.cats .cat .time{
+    color: #fff;
+    background: #000;
+    font-size: 0.65rem;
+    left: 80%;
+    padding: 5px;
+    position: absolute;
+    top: 60%;
+}
+
+.cats .cat-bottom{
+    display: flex;
+}
+
+.cats .cat-bottom{
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+.cats .cat .cat-bottom .prof-img{
+     width: 30px;
+    height: 30px; 
+    margin-right: 10px;
+}
+
+.cats .cat-bottom .prof-img .prof{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.cats .cat-info p{
+    font-size: 0.65rem;
+    color: var(--dark-font);
+}
+
+.cats .more{
+    width: 20px;
+    height: 20px;
+    margin-left: 90px;
+}
+
+.cats .play{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    background: #000;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.cats .play .play-btn{
+    width: 17px;
+    height: 17px;
+    margin-left: 10px;
+}
+
+.cat-wrap .next{
+    width: 50px;
+    position: absolute;
+    top: 88%;
+}

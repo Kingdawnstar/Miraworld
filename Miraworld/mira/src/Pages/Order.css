@@ -1,0 +1,84 @@
+.Order .Order-aside{
+    margin-top: 5px;
+}
+ .Order-container{
+    display: grid;
+    grid-template-columns: 18vw auto ;
+    position: relative;
+    background: var(--white-bg);
+    padding: 10px;
+}
+
+.Order-middle{
+    margin-top: 80px;
+}
+
+.Order-top-side{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Order-top-left small{
+    font-weight: lighter;
+   
+}
+
+.Order-top-left p{
+    margin-bottom: 10px;
+}
+
+.Order-top-right{
+    font-size: 0.75rem;
+    margin-right: 20px;
+}
+
+.Order-body{
+    margin-top: 30px;
+    font-weight: lighter;
+}
+
+.Order-body .Order-top-titles{
+    color: #CCC;
+    font-weight: bold;
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+}
+
+.Order-body-entries{
+    margin-top: 30px;
+    margin-left: 6px;
+}
+
+.Order-body-entry{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 0.6rem;
+    gap: 14%;
+    padding: 15px 0;
+    font-weight: bolder;
+    box-shadow: 0px 0px 0.5px 0.5px #ccc;
+    
+}
+
+.Order-body-entry P:nth-child(4){
+    margin-left: 15px;
+}
+
+.Order-body-entry p:nth-child(5){
+    margin-left: 35px;
+}
+
+.Order-body-entry P:last-child{
+    margin-left: 50px;
+}
+
+.process{
+    color: var(--primary-color);
+}
+
+.finish{
+    color: green;
+}
+

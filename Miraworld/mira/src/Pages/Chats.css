@@ -1,0 +1,17 @@
+.Chats .main-chat-container{
+    display: grid;
+    grid-template-columns: 18vw auto 20vw;
+    position: relative;
+    background: var(--white-bg);
+}
+
+.Chats .main-chat-container .Recent-chats{
+    top: 30%;
+    
+}
+
+.Chats .main-chat-container .Chat-aside{
+    margin-top: 5px;
+}
+ 
+

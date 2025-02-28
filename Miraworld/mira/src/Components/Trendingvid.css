@@ -1,0 +1,152 @@
+.Trendingvids{
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.Trend-vid-wrap{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1090px;
+    overflow-x: auto;
+    
+}
+
+.Trend-vid-wrap p{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    color: var(--dark-font);
+}
+
+.Trending-vids{
+    display: grid;
+    background: var(--white-bg);
+    padding: 5px;
+    justify-content: flex-start;
+    grid-template-columns: repeat(8, 1fr);
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    gap: 20px;
+}
+
+.Trending-vid{
+    width: 450px;
+    height: 250px;
+    background-color: #000;
+    position: relative;
+    border-radius: 5px;
+}
+
+.Trending-vid .thumb-backdrop{
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    object-fit: cover;
+    height: 100%;
+}
+
+.Trending-vid-info::before {
+    width: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    background: radial-gradient(transparent, #000);
+    border-radius: 5px;
+    position: absolute;
+    height: 100%;
+}
+
+
+.Trend-top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: absolute;
+    top: 5%;
+    
+}
+
+.Trend-top .Trending-vid-act{
+    display: flex;
+    margin-top: 15px;
+}
+
+.Trend-top .Trending-vid-act .heart{
+    width: 25px;
+    height: 25px;
+    position: relative;
+    border-radius: 50%;
+
+}
+
+
+
+.Trend-top .Trending-vid-act .share{
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+
+}
+
+.Trend-top .Profile .prof-img{
+    margin-left: 20px;
+    width: 40px;
+    margin-right: 10px;
+    height: 40px;
+}
+
+.Trend-top .Profile{
+    display: flex;
+    width: 350px;
+}
+
+.Trend-top .Profile p{
+    color: #fff;
+    margin-top: 10px;
+    margin-right: 30%;
+}
+
+.Trend-top .prof{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.Trending-vid-info .title-time{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    position: absolute;
+    top: 85%;
+    margin-left: 20px;
+    font-size: 0.8rem;
+}
+
+.Trending-vid-info .title-time p{
+    background-color: #000;
+    font-size: 0.6rem;
+    margin-left: 160px;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+.Trending-vid-info .play{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    width: 50px;
+}
+
+.next{
+    width: 50px;
+    position: absolute;
+    top: 35%;
+    right: 2%;
+}
+
+h5{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

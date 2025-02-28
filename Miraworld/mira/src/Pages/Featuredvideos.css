@@ -1,0 +1,10 @@
+.Featuredvids .container .vid-aside{
+    margin-top: 5px;
+    
+}
+
+.Featuredvids .container{
+    display: grid;
+    grid-template-columns: 18vw auto;
+    background: var(--white-bg);
+}

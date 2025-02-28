@@ -1,0 +1,21 @@
+.Productdetpage .Productdet-container{
+    display: grid;
+    grid-template-columns: 18vw auto auto;
+    position: relative;
+    
+    
+}
+
+.Productdetpage{
+    background: var(--white-bg);
+    padding-bottom: 20px;
+}
+
+.Products .Productdet-container .Productdet-aside{
+    margin-top: 5px;
+}
+
+.Productdet-middle{
+    margin-top: 80px;
+}
+

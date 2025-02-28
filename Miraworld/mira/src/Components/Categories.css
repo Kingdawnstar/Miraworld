@@ -1,0 +1,42 @@
+.Categories{
+    margin-top: 80px;
+    width: 90%;
+}
+
+.Categories h1{
+    margin-bottom: 15px;
+    padding: 20px;
+    font-size: 12px;
+}
+
+.Categories-container{
+    height: 800px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.Categories .Categories-container ul{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 11px;
+    width: 80%;
+    overflow-y: auto;
+    max-height: 800px;
+    scrollbar-width: none;
+    margin-top: 30px;
+    color: var(--dark-font);
+}
+
+.Categories .Categories-container ul li{
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.cat-active{
+    background-color: var(--dark-bg);
+    padding: 10px;
+    color: var(--white-font);
+    border-radius: 2px;
+}

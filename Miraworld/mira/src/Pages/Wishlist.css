@@ -1,0 +1,10 @@
+.Wishlist .wish-container{
+    display: grid;
+    grid-template-columns: 18vw auto;
+    position: relative;
+    background: var(--white-bg);
+}
+
+.Wishlist .wish-container .wish-aside{
+    margin-top: 5px;
+}

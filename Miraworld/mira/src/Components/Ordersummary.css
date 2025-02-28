@@ -1,0 +1,72 @@
+.Ordersummary{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 20px;
+    background: #fcbf49;
+    color: #fff;
+    height: 550px;
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+
+.Ordersummary .summary-wrap .summary-upper {
+    border-bottom: 5px solid #fff; 
+    padding: 0;
+    height: 250px;
+}
+.Ordersummary .summary-wrap .summary-upper h2{
+    margin-left: 28%;
+    margin-top: 20px;
+}
+
+.Ordersummary .summary-wrap .summary-upper .computation{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Ordersummary .summary-wrap .summary-upper .computation p{
+    margin-top: 20px;
+}
+
+.Ordersummary .summary-wrap .tot-computation{
+    margin-top: 30px;
+}
+
+.Ordersummary .summary-wrap .tot-computation .para-val{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.Ordersummary .summary-wrap .tot-computation button:hover{
+    width: 80%;
+    margin-top: 50px;
+    padding: 12px;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    color: #fcbf49;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.Ordersummary .summary-wrap .tot-computation button{
+    width: 80%;
+    margin-top: 50px;
+    padding: 12px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: #fcbf49;
+    color: #fff;
+    cursor: pointer;
+    align-items: center;
+    margin-left: 35px;
+}

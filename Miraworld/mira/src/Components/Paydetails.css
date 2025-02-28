@@ -1,0 +1,141 @@
+
+.heading-titles{
+    display: flex;
+    border-bottom: 1px solid var(--primary-color);
+    width: 35%;
+    padding: 5px;
+    margin-left: 10px;
+    color: var(--dark-font);
+}
+
+.Paydetails{
+    margin-left: 10px;
+}
+
+.Cont{
+    margin-top: 15px;
+}
+
+.Cont p{
+    font-size: 1.1rem;
+    color: var(--dark-font);
+    margin-bottom: 7px;
+}
+
+.Paydetails input{
+    padding: 7px;
+    font-size: 0.65rem;
+}
+
+.Cont input{
+    width: 90%;
+}
+
+.delivery{
+    margin-top: 15px;
+}
+
+.delivery p{
+    font-size: 1.1rem;
+    margin-bottom: 7px;
+    color: var(--dark-font);
+}
+
+.delivery .country{
+    width: 90%;
+    margin-bottom: 1.2%;
+}
+
+.name-space{
+    display: flex;
+    gap: 1%;
+}
+
+.name-space input{
+    width: 44.5%;
+}
+
+.addr{
+  width: 90%;
+  margin-top: 1.2%;  
+}
+
+.city{
+    display: flex;
+    gap: 1%;
+    margin-top: 1.2%;
+}
+
+.city input{
+   width: 44.5%; 
+}
+
+.check{
+    display: flex;
+}
+
+.check p{
+    font-size: 0.65rem;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.payment{
+    margin-top: 15px;
+}
+
+.payment p{
+    font-size: 1.1rem;
+    color: var(--dark-font);
+    margin-bottom: 7px;
+}
+
+.payment .pay-up-inp{
+    width: 90%;
+}
+
+
+.payment .pay-down .pay-down-inp{
+    width: 85%;
+    margin-bottom: 1.2%;
+}
+
+.exp-sec{
+    display: flex;
+    gap: 1%;
+    margin-bottom: 1.2%;
+}
+
+.exp-sec input{
+    width: 42%;
+}
+
+.card-holder{
+    width: 85%;
+}
+
+.Check-2{
+    display: flex;
+}
+
+.Check-2 p{
+    font-size: 0.65rem;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.Paydetails button{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    font-size: 0.6rem;
+    cursor: pointer;
+    width: 90%;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pay-down{
+    margin-left: 3%;
+}

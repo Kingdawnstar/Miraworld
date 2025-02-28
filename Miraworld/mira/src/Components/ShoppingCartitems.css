@@ -1,0 +1,97 @@
+.Shoppingcartitems{
+    margin-top: 100px;
+    margin-right: 40px;
+}
+
+.Shoppingcartitems .Shoppingcart-wrap{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 500px;
+    scrollbar-width: none;
+    overflow-y: auto;
+}
+
+.Shoppingcartitems .Shoppingcart-wrap .Shoppingcart-item{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    color: var(--dark-font);
+    box-shadow: 0 1px 2px #fcbf49;
+}
+
+.Shoppingcartitems .Shoppingcart-wrap .Shoppingcart-item img{
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.Shoppingcartitems .Shoppingcart-wrap .Shoppingcart-item .description p{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.Shoppingcartitems .Shoppingcart-wrap .Shoppingcart-item .description .sub-head{
+    font-size: 11px;
+}
+
+.Shoppingcartitems .Shoppingcart-wrap .Shoppingcart-item .description .act{
+    font-size: 15px;
+    display: flex;
+    margin-top: 15px;
+}
+
+.Shoppingcartitems .Shoppingcart-wrap .Shoppingcart-item .description .act button{
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 2px 4px;
+    font-size: 13px;
+    box-shadow: 0 1px 2px gray;
+}
+
+.Shoppingcartitems .Shoppingcart-wrap .Shoppingcart-item .act-icons {
+    display: flex;
+}
+
+.Shoppingcartitems .Shoppingcart-wrap .Shoppingcart-item .act-icons img{
+    width: 20px;
+    height: 20px;
+    margin-left: 30px;
+    object-fit: cover;
+}
+
+.Shoppingcartitems .Shoppingcart-wrap .Shoppingcart-item .act-icons p{
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.Shoppingcartitems .Shoppingcart-wrap .Shoppingcart-item h3{
+    margin-left: 40px;
+    color: rgb(83, 180, 0);;
+}
+
+.empty-cart{
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    align-items: center;
+    left: 25%;
+}
+
+.empty-cart span{
+    color: #fcbf49;
+    font-weight: bold;
+}
+
+.empty{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}

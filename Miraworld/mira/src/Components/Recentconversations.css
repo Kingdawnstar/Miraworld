@@ -1,0 +1,104 @@
+.Recentconversations{
+    margin-top: 80px;
+
+}
+
+.Recentconversations .Conv-wrap .start-chat{
+    font-size: 0.75rem;
+    background: #fcbf49;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 40px;
+    margin-left: 50%;
+    border-radius: 5px;
+}
+
+.Recentconversations .Conv-wrap .start-chat span{
+    border: 1px dotted #fff;
+    padding: 0 2px;
+    margin-right: 5px;
+}
+
+.Recentconversations .Conv-wrap .search-chat{
+    width: 95%;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 5px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.Recentconversations .Conv-wrap .search-chat input{
+    border: 0;
+    width: 80%;
+    outline: 0;
+    background: transparent;
+    font-size: 0.75rem;
+    margin-top: 2px;
+}
+
+.Recentconversations .Conv-wrap h4{
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.Recentconversations .Conv-wrap .search-chat .search{
+    width: 12px;
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+.Recentconversations .Conv-wrap .rec-chats{
+    height: 400px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.Recentconversations .Conv-wrap .rec-chats .chats{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: var(--dark-font);
+}
+
+.Recentconversations .Conv-wrap .rec-chats .chats .chat-info p{
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.Recentconversations .Conv-wrap .rec-chats .chats .chat-info small{
+    font-size: 0.65rem;
+    
+}
+
+.Recentconversations .Conv-wrap .rec-chats .chats .chat-time{
+    font-size: 0.7rem;
+    margin-left: 50px;
+}
+
+
+.Recentconversations .Conv-wrap .rec-chats .chats{
+    padding: 10px;
+    width: 100%;
+    border-radius: 2px;
+    margin-left: 0;
+}
+
+.Recentconversations .Conv-wrap .rec-chats .chats .chat-prof{
+    width: 35px;
+    margin-right: 5px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.Recentconversations .Conv-wrap .rec-chats .open{
+    background-color: #fcbf49;
+    color: white;
+}

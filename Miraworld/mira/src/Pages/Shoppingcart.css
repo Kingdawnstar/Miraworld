@@ -1,0 +1,14 @@
+.Shopping-cart .Shoppingcart-container{
+    display: grid;
+    grid-template-columns: 20vw auto 35vw;
+    position: relative;
+    background: var(--white-bg);
+}
+
+.Shopping-cart .Shoppingcart-container .Shoppingcart-aside{
+    margin-top: 5px;
+}
+
+.Shopping-cart .Shoppingcart-container .Shoppingcart-order{
+    top: 30%;
+}

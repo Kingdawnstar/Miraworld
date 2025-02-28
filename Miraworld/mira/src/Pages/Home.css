@@ -1,0 +1,18 @@
+  .home .main-container{
+    display: grid;
+    grid-template-columns: 20vw auto ;
+    position: relative;
+    background: var(--white-bg);
+    
+}
+
+.feed{
+  background: var(--grey-back);
+}
+
+/* .home .main-container .top-right{
+    top: 30%;
+} */
+
+ 
+

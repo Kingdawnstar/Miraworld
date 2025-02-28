@@ -1,0 +1,191 @@
+.main-cont{
+    display: grid;
+    grid-template-columns: 18vw auto;
+    background: var(--white-bg);
+}
+
+.set-aside{
+    margin-top: 30px;
+}
+
+.set-mid{
+    margin-top: 80px;
+}
+
+
+
+.set-links{
+    display: flex;
+    margin-left: 75%;
+    font-size: 0.7rem;
+    color: var(--dark-font);
+}
+
+.set-link{
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.active-link{
+    border-bottom: 1px solid #fcbf49;
+    color: var(--primary-color);
+}
+
+.cover-photos{
+    margin-bottom: 50px;
+}
+
+.cover{
+    width: 108%;
+    position: relative;
+    border-radius: 2px;
+    margin-top: 15px;
+}
+
+.pen-1{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 28%;
+    right: 5%;
+}
+
+.pen-2{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    left: 28%;
+    top: 60%;
+}
+
+.prof-photo{
+    width: 120px;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    height: 120px;
+}
+
+.prof-set{
+    border: 1px solid #fff;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name-btns{
+    margin-top: 60px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-btns .btns{
+    display: flex;
+    margin-right: 25px;
+}
+
+.btn-1{
+    background: var(--white-bg);
+    padding-top: 5px;
+    padding-bottom: 2px;
+    display: flex;
+    color: var(--dark-font);
+    font-size: 0.85rem;
+}
+
+.btn-2{
+    margin-left: 40px;
+    font-size: 0.85rem;
+    display: flex;
+    color: var(--dark-font);
+}
+
+.btn-pen{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.share{
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+}
+
+.name-set{
+    align-items: center;
+    justify-content: center;
+}
+
+.name-set h4{
+    font-size: 1.2rem;
+}
+
+.name-set p{
+    font-size: 0.7rem;
+    color: var(--dark-font);
+}
+
+.personal{
+    width: 20%;
+    color: var(--dark-font);
+}
+
+.set-bottom p{
+    font-size: 0.75rem;
+}
+.set-bottom{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: var(--dark-font);
+}
+
+.set-bottom small{
+    font-size: 0.7rem;
+}
+
+.set-bot-upper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+
+.p-info .info-down{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.phone{
+    margin-right: 22%;
+}
+.username{
+    margin-left: 20%;
+    width: 10%;
+}
+.Email{
+    margin-left: 20%;
+    width: 10%;
+}
+
+.p-info{
+    margin-right: 40px;
+    width: 65%;
+}
+.p-info .info-top{
+    display: flex;
+    margin-left: 50px;
+}
+
+
+.bio{
+    margin-left: 36%;
+    margin-top: 10px;
+}
+
+.bio small{
+    font-size: 1.1rem;
+}

@@ -1,0 +1,103 @@
+.Productdetpics{
+    width: 100%;
+}
+
+.heading-titles{
+    display: flex;
+    border-bottom: 1px solid var(--primary-color);
+    width: 35%;
+    padding: 5px;
+    margin-left: 10px;
+    color: var(--dark-font);
+}
+
+.heading-titles .title-img{
+    width: 9px;
+    height: 9px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.heading-titles .title-img img{
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    
+}
+
+.sec-title{
+    color: var(--primary-color);
+}
+
+.heading-titles span{
+    font-size: 0.65rem;
+    padding-bottom: 0;
+}
+
+.heading-info{
+    display: flex;
+    color: var(--dark-font);
+    margin-top: 20px;
+}
+
+.heading-info-pic{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 50%;
+    padding: 2px;
+    border: 1px dashed var(--primary-color);
+}
+
+.heading-info-pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.heading-info-name{
+    font-size: 0.75rem;
+    color: var(--dark-font);
+}
+
+.heading-info-name span{
+    font-size: 0.65rem;
+    color: var(--primary-color);
+}
+
+.picture{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.smaller-pics{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    overflow-y: auto;
+    margin-right: 10px;
+    gap: 1.2rem;
+}
+
+.little-pic{
+    width: 40px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.big-pic{
+    width: 400px;
+    height: 500px;
+}
+
+.big-pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.loader{
+    width: 500px;
+}

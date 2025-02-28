@@ -1,0 +1,13 @@
+.Playvideo .video-aside{
+    margin-top: 5px;
+}
+.Playvideo .video-container{
+    display: grid;
+    grid-template-columns: 18vw auto 25vw;
+    position: relative;
+    background: var(--white-bg);
+}
+
+.Playvideo{
+    background-color: var(--white-bg);
+}

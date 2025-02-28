@@ -1,0 +1,59 @@
+.Trends{
+    margin-top: 70px;
+    padding: 10px;
+    z-index: 200;
+    margin-bottom: 2px;
+    width: 100%;
+    margin-left: 0;
+    
+}
+
+.Trends .Trend-wrap{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 2rem !important;
+    position: initial;
+    /* max-width: auto; */
+    z-index: 100;
+}
+
+.Trends .Trend-wrap .Trend{
+    margin-top: 2px;
+    margin-left: 20px;
+    width: 90px;
+    justify-content: center;
+    /* background-color:bisque; */
+    align-items: center;
+    height: 10px;
+    color: var(--dark-font);
+    margin-bottom: 2px;
+    padding-bottom: 10px;
+}
+
+.Trends .Trend-wrap .Trend .Trend-door{
+    width: 50px;
+    object-fit: cover;
+    padding: 2px;
+    height: 50px;
+    margin-left: .95rem;
+    position: relative;
+    border-radius: 50%;
+    border: 1px dashed var(--primary-color);
+    
+}
+
+.Trends .Trend-wrap .Trend  p{
+    font-size: 0.65rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--dark-font);
+    margin-top: 5px;
+}
+
+.Trends h5{
+    color: var(--dark-font);
+    font-size: 0.75rem;
+}

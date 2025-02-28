@@ -1,0 +1,21 @@
+.Paydetailspg .Paydet-container{
+    display: grid;
+    grid-template-columns: 18vw auto 40%;
+    position: relative;
+    
+    
+}
+
+.Paydetailspg{
+    background: var(--white-bg);
+    padding-bottom: 20px;
+}
+
+.Products .Paydet-container .Paydet-aside{
+    margin-top: 5px;
+}
+
+.Paydet-middle{
+    margin-top: 80px;
+}
+
