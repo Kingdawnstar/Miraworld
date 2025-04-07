@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Miraworld/static/css/main.baa6b50a.css",
-    "main.js": "/Miraworld/static/js/main.a48a7cb1.js",
+    "main.css": "/Miraworld/static/css/main.c68be256.css",
+    "main.js": "/Miraworld/static/js/main.63f3b1b8.js",
     "static/js/453.364a77cb.chunk.js": "/Miraworld/static/js/453.364a77cb.chunk.js",
     "static/media/video.mp4": "/Miraworld/static/media/video.3fa6a79d12eeb0bc2c5b.mp4",
     "static/media/Loginpic.png": "/Miraworld/static/media/Loginpic.0cf744ca3ba12f4ebf6d.png",
     "static/media/thumbnail8.png": "/Miraworld/static/media/thumbnail8.80d857e9c212045f6efb.png",
     "static/media/thumbnail5.png": "/Miraworld/static/media/thumbnail5.9a1043ddda8747245faf.png",
     "static/media/thumbnail6.png": "/Miraworld/static/media/thumbnail6.922e46bb7429a189f630.png",
+    "static/media/snicker.png": "/Miraworld/static/media/snicker.b7cd7d452634a046e4f6.png",
     "static/media/Createacctpic.jpg": "/Miraworld/static/media/Createacctpic.0446f7c7d35b28c63ec8.jpg",
     "static/media/Rectangle 14926.png": "/Miraworld/static/media/Rectangle 14926.cf811938603d36e0b42f.png",
     "static/media/st1.jpg": "/Miraworld/static/media/st1.eface8efbde0fe688073.jpg",
@@ -23,13 +24,15 @@
     "static/media/s3.jpg": "/Miraworld/static/media/s3.046b8ad2eee302011c5e.jpg",
     "static/media/cameron.png": "/Miraworld/static/media/cameron.cedb1ba5832f609542da.png",
     "static/media/s7.jpg": "/Miraworld/static/media/s7.299d9fc3c99d4659a448.jpg",
+    "static/media/simon.png": "/Miraworld/static/media/simon.a92c2df263101574e364.png",
+    "static/media/payoption.png": "/Miraworld/static/media/payoption.769f2099c4e0f9261092.png",
     "index.html": "/Miraworld/index.html",
-    "main.baa6b50a.css.map": "/Miraworld/static/css/main.baa6b50a.css.map",
-    "main.a48a7cb1.js.map": "/Miraworld/static/js/main.a48a7cb1.js.map",
+    "main.c68be256.css.map": "/Miraworld/static/css/main.c68be256.css.map",
+    "main.63f3b1b8.js.map": "/Miraworld/static/js/main.63f3b1b8.js.map",
     "453.364a77cb.chunk.js.map": "/Miraworld/static/js/453.364a77cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.baa6b50a.css",
-    "static/js/main.a48a7cb1.js"
+    "static/css/main.c68be256.css",
+    "static/js/main.63f3b1b8.js"
   ]
 }
