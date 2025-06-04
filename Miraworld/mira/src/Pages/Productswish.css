@@ -1,0 +1,15 @@
+.Productswish .Productswish-container{
+    display: grid;
+    grid-template-columns: 18vw auto;
+    position: relative;
+    background: var(--white-bg);
+}
+
+.Productswish-feed{
+    background: var(--grey-back);
+}
+
+.Productswish .Productswish-container .Productswish-aside{
+    margin-top: 5px;
+}
+

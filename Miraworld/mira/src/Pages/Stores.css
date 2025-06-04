@@ -1,0 +1,14 @@
+.Stores .Store-container{
+    display: grid;
+    grid-template-columns: 18vw auto;
+    position: relative;
+    background: var(--white-bg);
+}
+
+.StoreItems{
+    background: var(--grey-back);
+}
+
+.Stores .store-container .Store-aside{
+    margin-top: 5px;
+}

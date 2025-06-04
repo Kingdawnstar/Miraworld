@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Productitems.css";
 import tb2 from "../assetsmira/Rectangle 21.png";
 import tb4 from "../assetsmira/Rectangle 26.png";
@@ -8,13 +8,15 @@ import tb7 from "../assetsmira/Rectangle 14926.png";
 import tb8 from "../assetsmira/thumbnail8.png";
 import S1 from "../assetsmira/s1.jpg";
 import Heart from "../assetsmira/Group 2172.png";
+import HeartFilled from "../assetsmira/ph_heart-fill.png"; // Add your filled heart image here
 import { useCart } from "../cartContext";
 import { useSearch } from "../cartContext";
+import { useWishlist } from "../cartContext";
 import { Link } from "react-router-dom";
 
 const ProductItems = () => {
-  // Default value for searchTerm
   const { addToCart } = useCart();
+  const { addToWishlist } = useWishlist();
   const { searchTerm } = useSearch();
   const products = [
     { id: 1, name: "Sole Haven Footwear", price: "$34", image: tb2 },
@@ -30,6 +32,9 @@ const ProductItems = () => {
     { id: 11, name: "Diamond", price: "$30", image: tb7 },
   ];
 
+  // State to track wished products
+  const [wishedProducts, setWishedProducts] = useState(new Set());
+
   // Filter products based on searchTerm
   const filteredProducts = products.filter((product) =>
     product.name.toLowerCase().includes(searchTerm.toLowerCase())
@@ -39,10 +44,24 @@ const ProductItems = () => {
     addToCart(product);
   };
 
+  const handleWishlistToggle = (product) => {
+    const updatedWishedProducts = new Set(wishedProducts);
+
+    if (updatedWishedProducts.has(product.id)) {
+      updatedWishedProducts.delete(product.id); // Remove from wishlist
+    } else {
+      updatedWishedProducts.add(product.id); // Add to wishlist
+      addToWishlist(product); // Add item to wishlist context
+    }
+
+    setWishedProducts(updatedWishedProducts);
+  };
+
   return (
     <div className="Product-items">
       <div className="Products-wrap">
         <h5>Products</h5>
+        <small>{products.length} Items</small>
         <div className="Products">
           {filteredProducts.map((product) => (
             <div className="Product" key={product.id}>
@@ -52,7 +71,12 @@ const ProductItems = () => {
                   src={product.image}
                   alt={product.name}
                 />
-                <img className="Lovethis" src={Heart} alt="Wishlist" />
+                <img
+                  onClick={() => handleWishlistToggle(product)}
+                  className="Lovethis"
+                  src={wishedProducts.has(product.id) ? HeartFilled : Heart}
+                  alt="Wishlist"
+                />
               </div>
               <div className="Product-desc">
                 <div className="Product-desc-upper">

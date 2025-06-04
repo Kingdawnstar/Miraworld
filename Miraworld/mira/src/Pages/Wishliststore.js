@@ -1,6 +1,6 @@
 import React from "react";
 import Sidebar from "../Components/Sidebar";
-import "./Wishlist.css";
+import "./Wishliststore.css";
 import Wishlistitems from "../Components/Wishlistitems";
 import Navbar from "../Components/Navbar";
 
@@ -13,7 +13,7 @@ const Wishlist = ({ toggleDarkMode }) => {
           <Sidebar />
         </div>
         <div className="wish-feed">
-          <Wishlistitems />
+          <Wishlistitems  />
         </div>
       </div>
     </div>

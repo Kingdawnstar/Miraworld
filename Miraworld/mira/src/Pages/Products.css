@@ -6,6 +6,10 @@
     
 }
 
+.Product-feed, .ProductsItems{
+    background: var(--grey-back);
+}
+
 .Products .Product-container .Product-aside{
     margin-top: 5px;
 }

@@ -1,16 +1,17 @@
 import React from "react";
 import "./Wishlistitems.css";
-import { useWishlist } from "../cartContext";
+import { useStore } from "../cartContext";
+import { Link } from "react-router-dom";
 import { useSearch } from "../cartContext"; // Import SearchContext
-import S1 from "../assetsmira/s1.jpg";
 import Heart from "../assetsmira/ph_heart-fill.png";
+import Shop from "../assetsmira/circum_shop.png";
 
 const Wishlistitems = () => {
-  const { wishlist, removeFromWishlist } = useWishlist();
+  const { storeItems, removeFromStore } = useStore();
   const { searchTerm } = useSearch(); // Get search term from context
 
   // Filter wishlist based on search term
-  const filteredWishlist = wishlist.filter((product) =>
+  const filteredStoreItems = storeItems.filter((product) =>
     product.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
@@ -18,12 +19,21 @@ const Wishlistitems = () => {
     <div className="Wishlistitems">
       <div className="wish-wrap">
         <h5>My Wishlist</h5>
+        <small>{filteredStoreItems.length} Items</small>
+        <div className="topic">
+          <Link to={'/Miraworld/Productswish'} ><p>Products</p></Link>
+          <Link to={'/Miraworld/Wishliststore'}><p className="curr">Stores</p></Link>
+        </div>
         <div className="lists">
-          {filteredWishlist.length === 0 ? (
-            <p>Your wishlist is empty.</p>
+          {filteredStoreItems.length === 0 ? (
+            <p>Your Saved Stores will show here.</p>
           ) : (
-            filteredWishlist.map((product) => (
+            filteredStoreItems.map((product) => (
               <div className="list" key={product.id}>
+                <div className="headnam">
+                  <p className="big-name">{product.name}</p>
+                  <img src={Shop} alt=""/>
+                </div>
                 <div className="list-upper">
                   <img
                     className="main"
@@ -33,21 +43,29 @@ const Wishlistitems = () => {
                   <img className="Lovethis" src={Heart} alt="Love this" />
                 </div>
                 <div className="list-desc">
-                  <div className="list-desc-upper">
-                    <p>{product.name}</p>
-                    <h2>{product.price}</h2>
-                  </div>
-                  <div className="list-desc-lower">
-                    <img src={S1} alt="Visit Store" />
-                    <div className="desc-lower-text">
-                      <p>Sole Haven Footwear</p>
-                      <small>Visit Store</small>
+                  <div className="list-desc-stat">
+                    <div className="foll">
+                      <p>{ product.followers}</p>
+                      <small>Followers</small>
                     </div>
+                    <div className="po">
+                      <p>{ product.Posts}</p>
+                      <small>Posts</small>
+                    </div>
+                    <div className="catl">
+                      <p>{ product.Catalogue}</p>
+                      <small>Catalogue</small>
+                    </div>
+                  </div>
+                  <div className="list-desc-upper">
+                    <p>Get your products at affordable prices here with great quality...</p>
                   </div>
                 </div>
                 <div className="actions">
-                  <button onClick={() => removeFromWishlist(product.id)}>
-                    Remove from wishlist
+                  <button className="vis">View store</button>
+                  <button className="fol">Follow</button>
+                  <button className="rem" onClick={() => removeFromStore(product.id)}>
+                    Remove
                   </button>
                 </div>
               </div>

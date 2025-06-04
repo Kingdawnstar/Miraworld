@@ -2,7 +2,11 @@ import React, { useState } from 'react';
 import './index.css';
 import Home from './Pages/Home';
 import { Routes, Route } from 'react-router-dom';
-import Wishlist from './Pages/Wishlist';
+import Wishliststore from './Pages/Wishliststore';
+import Stores from './Pages/Stores';
+import Storeblog from './Pages/Storeblog';
+import Storeprodet from './Pages/Storeprodet';
+import Storecat from './Pages/Storecat';
 import Products from './Pages/Products';
 import Shoppingcart from './Pages/Shoppingcart';
 import Chats from './Pages/Chats';
@@ -15,6 +19,7 @@ import Notpreference from './Pages/Notpreference';
 import Notmessages from './Pages/Notmessages';
 import Order from './Pages/Order';
 import Quickpost from './Pages/Quickpost';
+import Productswish from './Pages/Productswish';
 import { Myorders } from './Components/Myorders';
 import Productdetpage from './Pages/Productdetpage';
 import { Paydetailspg } from './Pages/Paydetailspg';
@@ -34,7 +39,7 @@ function App() {
             <AppProvider>
                 <Routes>
                     <Route path='/Miraworld' element={<Home toggleDarkMode={toggleDarkMode} />} />
-                    <Route path='/Miraworld/Wishlist' element={<Wishlist toggleDarkMode={toggleDarkMode} />} />
+                    <Route path='/Miraworld/Wishliststore' element={<Wishliststore toggleDarkMode={toggleDarkMode} />} />
                     <Route path='/Miraworld/Products' element={<Products toggleDarkMode={toggleDarkMode} />} />
                     <Route path='/Miraworld/Shoppingcart' element={<Shoppingcart toggleDarkMode={toggleDarkMode} />} />
                     <Route path='/Miraworld/Chats' element={<Chats toggleDarkMode={toggleDarkMode} />} />
@@ -51,7 +56,12 @@ function App() {
                     <Route path='/Miraworld/Usersupport' element={<Usersupport />} />
                     <Route path='/Miraworld/Productdetpage' element={<Productdetpage toggleDarkMode={toggleDarkMode} />} />
                     <Route path='/Miraworld/Paydetailspg' element={<Paydetailspg toggleDarkMode={toggleDarkMode} />} />
-                    <Route path='/Miraworld/Myorders' element={<Myorders toggleDarkMode = {toggleDarkMode}/>} />
+                    <Route path='/Miraworld/Myorders' element={<Myorders toggleDarkMode={toggleDarkMode} />} />
+                    <Route path='/Miraworld/Productswish' element={<Productswish toggleDarkMode={toggleDarkMode} />} />
+                    <Route path='/Miraworld/Stores' element={<Stores toggleDarkMode={toggleDarkMode} />} />
+                    <Route path='/Miraworld/Storecat' element={<Storecat toggleDarkMode={toggleDarkMode} />} />
+                    <Route path='/Miraworld/Storeprodet' element={<Storeprodet toggleDarkMode={toggleDarkMode} />} />
+                    <Route path='/Miraworld/Storeblog' element={<Storeblog toggleDarkMode={toggleDarkMode} />} />
                 </Routes>
             </AppProvider>
         </div>

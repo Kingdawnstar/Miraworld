@@ -1,15 +1,13 @@
 import React from "react";
 import "./ShoppingCartitems.css";
 import { useCart } from "../cartContext";
-import { useWishlist } from "../cartContext"; // Import WishlistContext
 import { useSearch } from "../cartContext"; // Import SearchContext
 import Thrash from "../assetsmira/bi_trash.png";
-import Heart from "../assetsmira/Empty-heart.png";
+import Heart from "../assetsmira/ph_heart-fill.png";
 import EmptyCartImage from "../assetsmira/noitems.png"; // Import your empty cart image
 
 const Shoppingcartitems = () => {
   const { cart, removeFromCart, updateQuantity } = useCart();
-  const { addToWishlist } = useWishlist(); // Get addToWishlist from context
   const { searchTerm } = useSearch(); // Get searchTerm from context
 
   const handleIncreaseQuantity = (index) => {
@@ -21,9 +19,7 @@ const Shoppingcartitems = () => {
     updateQuantity(index, newQuantity);
   };
 
-  const handleAddToWishlist = (product) => {
-    addToWishlist(product); // Add item to wishlist
-  };
+  
 
   // Filter cart items based on search term
   const filteredCart = cart.filter((product) =>
@@ -33,6 +29,7 @@ const Shoppingcartitems = () => {
   return (
     <div className="Shoppingcartitems">
       <h5>Shopping Cart</h5>
+      <small>{filteredCart.length > 0 ? (filteredCart.length + ' Items') : ''}</small>
       <div className="Shoppingcart-wrap">
         {filteredCart.length === 0 ? (
           <div className="empty-cart">
@@ -68,11 +65,8 @@ const Shoppingcartitems = () => {
                   <p>Remove</p>
                 </div>
                 <div
-                  className="wish-icon"
-                  onClick={() => handleAddToWishlist(product)}
-                >
+                  className="wish-icon">
                   <img src={Heart} alt="Add to Wishlist" />
-                  <p>Wishlist</p>
                 </div>
               </div>
               <h3>

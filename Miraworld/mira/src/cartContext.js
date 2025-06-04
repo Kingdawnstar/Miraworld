@@ -9,6 +9,31 @@ const WishlistContext = createContext();
 // Create the search context
 const SearchContext = createContext();
 
+//Create the store context
+const StoreContext = createContext();
+
+// Provide Context
+export const StoreProvider = ({ children }) => {
+    const [storeItems, setStoreItems] = useState([]);
+  
+    const addToStore = (product) => {
+      if (!storeItems.some(item => item.id === product.id)) {
+        setStoreItems((prev) => [...prev, product]);
+      }
+    };
+  
+    const removeFromStore = (id) => {
+      setStoreItems((prev) => prev.filter(item => item.id !== id));
+    };
+  
+    return (
+      <StoreContext.Provider value={{ storeItems, addToStore, removeFromStore }}>
+        {children}
+      </StoreContext.Provider>
+    );
+  };
+  
+
 // Cart Provider
 export const CartProvider = ({ children }) => {
     const [cart, setCart] = useState([]);
@@ -83,6 +108,7 @@ export const SearchProvider = ({ children }) => {
 export const useCart = () => useContext(CartContext);
 export const useWishlist = () => useContext(WishlistContext);
 export const useSearch = () => useContext(SearchContext);
+export const useStore = () => useContext(StoreContext);
 
 // Combined Provider
 export const AppProvider = ({ children }) => {
@@ -90,7 +116,9 @@ export const AppProvider = ({ children }) => {
         <CartProvider>
             <WishlistProvider>
                 <SearchProvider>
-                    {children}
+                    <StoreProvider>
+                        {children}
+                    </StoreProvider>
                 </SearchProvider>
             </WishlistProvider>
         </CartProvider>

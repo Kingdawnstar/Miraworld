@@ -5,6 +5,7 @@ import Home from "../assetsmira/home-outline.png";
 import Carbon from "../assetsmira/carbon_collapse-categories.png";
 import Customer from "../assetsmira/headset.png";
 import Setting from "../assetsmira/ep_setting.png";
+import Shop from '../assetsmira/circum_shop.png'
 import Navpic from "../assetsmira/s3.jpg";
 import Chat from "../assetsmira/chat.png";
 import Friends from "../assetsmira/lucide_users.png";
@@ -68,6 +69,29 @@ const Sidebar = () => {
             <img className="inv" src={Carbon} alt="" />
             <p>Products</p>
           </div>
+          
+        </Link>
+        <Link to={"/Miraworld/Stores"}>
+          <div
+            className={
+              location.pathname === "/Miraworld/Stores"
+                ? "side-link active"
+                : "side-link" &&
+              location.pathname === "/Miraworld/Storeprodet"
+                ? "side-link active"
+                : "side-link" &&
+                    location.pathname === "/Miraworld/Storeblog"
+                  ? "side-link active"
+                  : "side-link" &&
+                      location.pathname === "/Miraworld/Storecat"
+                    ? "side-link active"
+                    : "side-link"
+            }
+          >
+            <img className="inv" src={Shop} alt="" />
+            <p>Stores</p>
+          </div>
+          
         </Link>
         <Link to={"/Miraworld/Shoppingcart"}>
           <div
@@ -95,10 +119,13 @@ const Sidebar = () => {
             <p>My Orders</p>
           </div>
         </Link>
-        <Link to={"/Miraworld/Wishlist"}>
+        <Link to={"/Miraworld/Productswish"}>
           <div
             className={
-              location.pathname === "/Miraworld/Wishlist"
+              location.pathname === "/Miraworld/Wishliststore"
+                ? "side-link active"
+                : "side-link" &&
+                location.pathname === "/Miraworld/Productswish"
                 ? "side-link active"
                 : "side-link"
             }

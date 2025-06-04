@@ -1,6 +1,7 @@
 import React from "react";
 import "./Ordersummary.css";
 import { useCart } from "../cartContext";
+import { Link } from "react-router-dom";
 
 const Ordersummary = () => {
   const { cart } = useCart();
@@ -38,7 +39,7 @@ const Ordersummary = () => {
             <p>Total</p>
             <p>${total.toFixed(2)}</p>
           </div>
-          <button>Next</button>
+          <Link to={'/Miraworld/Order'}><button>Next</button></Link>
         </div>
       </div>
     </div>

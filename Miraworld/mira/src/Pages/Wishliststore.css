@@ -5,6 +5,10 @@
     background: var(--white-bg);
 }
 
+.wish-feed{
+    background: var(--grey-back);
+}
+
 .Wishlist .wish-container .wish-aside{
     margin-top: 5px;
 }

@@ -1,0 +1,100 @@
+.Prodwishlists{
+    margin-top: 15px;
+}
+
+.Prodwishlists .Prodlist{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.Prodwishlistitems{
+    margin-top: 80px;
+    padding: 20px;
+}
+.Prodlist-upper{
+    display: flex;
+}
+
+.Prodlist-desc{
+    margin-left: 4px;
+}
+
+.Prodwishlists .Prodlist .Prodlist-upper img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.Prodwishlists .Prodlist .Prodlist-desc-upper{
+    font-size: 0.8rem;
+}
+
+.Prodlist-desc-upper b{
+    font-size: 0.8rem;
+}
+
+.Prodlist-desc-upper p{
+    font-size: 0.68rem;
+} 
+
+.Prodlist-desc-upper small{
+    font-size: 0.6rem;
+    margin-top: 5px;
+    color: #ccc;
+}
+
+
+.Prodlist-desc-upper span{
+    margin-left: 8px;
+    color: var(--dark-font);
+}
+
+.Prodlist-desc-upper .remov{
+    margin-top: 10px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.Prodwish-wrap h5{
+    color: var(--dark-font);
+    margin-bottom: 40px;
+}
+
+.Prodwish-wrap .topic{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ccc;
+    width: 20%;
+}
+
+.Prodwish-wrap .topic p{
+    font-size: 0.7rem;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+.Prodwish-wrap .topic .curr{
+    color: #EF7D24;
+    border-bottom: 1px solid #DF7E24;
+    margin-right: 10px;
+    padding-right: 30px;
+    width: 70%;
+}
+
+.price-sh{
+    font-size: 0.75rem;
+}
+
+.Prodwishlists .Prodlist button{
+    font-size: 0.7rem;
+    background-color: var(--dark-font);
+    color: var(--white-font);
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 5px 0;
+    cursor: pointer;
+    width: 30%;
+    height: 20%;
+}
