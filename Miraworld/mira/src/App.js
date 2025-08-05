@@ -4,6 +4,7 @@ import Home from './Pages/Home';
 import { Routes, Route } from 'react-router-dom';
 import Wishliststore from './Pages/Wishliststore';
 import Stores from './Pages/Stores';
+import Notsec from './Pages/Notsec';
 import Storeblog from './Pages/Storeblog';
 import Storeprodet from './Pages/Storeprodet';
 import Storecat from './Pages/Storecat';
@@ -53,7 +54,7 @@ function App() {
                     <Route path='/Miraworld/Order' element={<Order />} />
                     <Route path='/Miraworld/Quickpost' element={<Quickpost />} />
                     <Route path='/Miraworld/Userconnect' element={<Userconnect />} />
-                    <Route path='/Miraworld/Usersupport' element={<Usersupport />} />
+                    <Route path='/Miraworld/Usersupport' element={<Usersupport  toggleDarkMode={toggleDarkMode} />} />
                     <Route path='/Miraworld/Productdetpage' element={<Productdetpage toggleDarkMode={toggleDarkMode} />} />
                     <Route path='/Miraworld/Paydetailspg' element={<Paydetailspg toggleDarkMode={toggleDarkMode} />} />
                     <Route path='/Miraworld/Myorders' element={<Myorders toggleDarkMode={toggleDarkMode} />} />
@@ -62,6 +63,8 @@ function App() {
                     <Route path='/Miraworld/Storecat' element={<Storecat toggleDarkMode={toggleDarkMode} />} />
                     <Route path='/Miraworld/Storeprodet' element={<Storeprodet toggleDarkMode={toggleDarkMode} />} />
                     <Route path='/Miraworld/Storeblog' element={<Storeblog toggleDarkMode={toggleDarkMode} />} />
+                    <Route path='/Miraworld/Notsec' element={<Notsec toggleDarkMode={toggleDarkMode} />} />
+                   
                 </Routes>
             </AppProvider>
         </div>

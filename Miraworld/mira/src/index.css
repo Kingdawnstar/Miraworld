@@ -1,6 +1,6 @@
 
 .light-mode{
-  --primary-color:#fcbf49;
+  --primary-color:#FFB61D;
   --white-bg: #fff;
   --dark-bg: #000;
   --white-font: #fff;
@@ -13,7 +13,7 @@
 } 
 
 .dark-mode{
-  --primary-color:#fcbf49;
+  --primary-color:#FFB61D;
    --white-bg: radial-gradient(circle at -4% -12.9%, rgb(74, 98, 110) 0.3%, rgb(30, 33, 48) 90.2%);
   --dark-bg: #fff;
   --white-font: #000;

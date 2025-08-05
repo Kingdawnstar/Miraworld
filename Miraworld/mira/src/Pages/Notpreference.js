@@ -23,7 +23,9 @@ const Notpreference = ({ toggleDarkMode }) => {
               <Link to={"/Miraworld/Notmessages"}>
                 <p className="set-link active-link">Notifications</p>
               </Link>
+              <Link to={"/Miraworld/Notsec"}>
               <p className="set-link">Security</p>
+              </Link>
             </div>
             <div className="not-links">
               <Link to={"/Miraworld/Notmessages"}>

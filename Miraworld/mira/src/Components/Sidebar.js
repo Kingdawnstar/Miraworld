@@ -8,8 +8,6 @@ import Setting from "../assetsmira/ep_setting.png";
 import Shop from '../assetsmira/circum_shop.png'
 import Navpic from "../assetsmira/s3.jpg";
 import Chat from "../assetsmira/chat.png";
-import Friends from "../assetsmira/lucide_users.png";
-import Quick from "../assetsmira/quick.png";
 import Video from "../assetsmira/ph_video-light.png";
 import Wish from "../assetsmira/carbon_worship-jewish.png";
 import Cart from "../assetsmira/solar_cart-broken.png";
@@ -146,12 +144,7 @@ const Sidebar = () => {
             <p>Featured Videos</p>
           </div>
         </Link>
-        <Link to={"/Miraworld/Quickpost"}>
-          <div className="side-link">
-            <img src={Quick} alt="" />
-            <p>Quick Post</p>
-          </div>
-        </Link>
+       
         <Link to={"/Miraworld/Chats"}>
           <div
             className={
@@ -164,14 +157,13 @@ const Sidebar = () => {
             <p>Chat</p>
           </div>
         </Link>
-        <Link to={"/Miraworld/Userconnect"}>
-          <div className="side-link">
-            <img src={Friends} alt="" />
-            <p>User Connections</p>
-          </div>
-        </Link>
+       
         <Link to={"/Miraworld/Usersupport"}>
-          <div className="side-link">
+          <div className={
+             location.pathname === "/Miraworld/Usersupport"
+                ? "side-link active"
+                : "side-link"
+          }>
             <img src={Customer} alt="" />
             <p>Help and Support</p>
           </div>

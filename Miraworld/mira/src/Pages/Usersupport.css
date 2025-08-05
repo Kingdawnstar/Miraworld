@@ -1,0 +1,92 @@
+.Usersupport{
+  width: 100%;
+  /* padding: 24px; */
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+.Usersupport button{
+    margin-top: 20px;
+
+}
+
+.set-mid-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+  margin-top: 80px;
+}
+
+.set-mid-header h5{
+    color: var(--dark-font);
+}
+
+/* .help-support-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+  margin: 0;
+} */
+
+.new-ticket-btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 20px;
+  background-color: #FFB61D;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.new-ticket-btn:hover {
+  background-color: #e6a319;
+}
+
+.new-ticket-btn svg {
+  width: 20px;
+  height: 20px;
+}
+
+.help-support-content {
+  background-color: #FAFAFA;
+  border-radius: 10px;
+  padding: 0;
+  min-height: 921px;
+}
+
+.ticket-management {
+  background-color: #FFFFFF;
+  border-radius: 4px;
+  padding: 0;
+  min-height: 919px;
+}
+
+/* @media (max-width: 768px) {
+  .Usersupport {
+    padding: 16px;
+  }
+  
+  .help-support-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+  
+  .help-support-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  .new-ticket-btn {
+    justify-content: center;
+  } */

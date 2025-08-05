@@ -1,0 +1,118 @@
+.notsec{
+   background: var(--white-bg);
+    margin-top: 25px;
+    padding: 10px;
+    display: flex;
+    color: var(--dark-font);
+    width: 97%;
+    justify-content: flex-start;
+}
+
+.notsec-wrap p{
+    font-size: 0.7rem;
+    margin-top: 10px;
+    line-height: 1.2rem;
+    color: var(--dark-font);
+    font-weight: 400;
+}
+
+.not-sec{
+    width: 95%;
+}
+
+.not-sec h5{
+    color: var(--dark-font);
+}
+
+.del h5{
+    color: rgba(255, 0, 0, 0.747);
+}
+
+.del p{
+    color: rgba(255, 0, 0, 0.747);
+}
+
+.not-btn-sec{
+    width: 20px;
+    height: 20px;
+    margin-left: 90px;
+}
+
+.not-btn-sec-edit button{
+    width: 45px;
+    height: 28px;
+    padding: 5px;
+    color: var(--dark-font);
+    background: var(--white-bg);
+    border: 1px solid var(--dark-font);
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 0.7rem;
+    margin-left: 100px;
+}
+
+.not-btn-sec-del button{
+    width: 60px;
+    height: 28px;
+    cursor: pointer;
+    padding: 5px;
+    color: var(--dark-font);
+    background: var(--white-bg);
+    border: 1px solid rgba(255, 0, 0, 0.747);
+    border-radius: 2px;
+    font-size: 0.7rem;
+    margin-left: 100px;
+}
+
+.not-btn-sec-edit button:hover {
+  background-color: var(--primary-color); /* Darker shade on hover */
+  color: var(--white-bg);
+  transform: scale(1.05); /* Slightly enlarges the button */
+}
+
+.not-btn-sec-del button:hover {
+  background-color: rgba(255, 0, 0, 0.747); /* Darker shade on hover */
+  color: var(--white-bg);
+  transform: scale(1.05); /* Slightly enlarges the button */
+}
+.toggle {
+  position: relative;
+  width: 45px;
+  height: 20px;
+}
+
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-label {
+  background-color: #ccc;
+  display: block;
+  border-radius: 50px;
+  cursor: pointer;
+  height: 100%;
+  position: relative;
+  transition: background-color 0.2s;
+}
+
+.toggle-circle {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background-color: white;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s;
+}
+
+input:checked + .toggle-label {
+  background-color: var(--primary-color); /* Change to green when checked */
+}
+
+input:checked + .toggle-label .toggle-circle {
+  transform: translateX(26px); /* Move the circle to the right */
+}
+

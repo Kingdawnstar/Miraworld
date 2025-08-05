@@ -1,0 +1,53 @@
+.ticket-list {
+  padding: 0 15px 15px;
+  background-color: #FFFFFF;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ticket-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-height: 350px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+
+.no-tickets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+  color: #84818A;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+/* Custom scrollbar */
+.ticket-list-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.ticket-list-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 6px;
+}
+
+.ticket-list-container::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 6px;
+}
+
+.ticket-list-container::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
+
+@media (max-width: 768px) {
+  .ticket-list {
+    padding: 0 16px 16px;
+  }
+  
+  .ticket-list-container {
+    max-height: 500px;
+  }
+}

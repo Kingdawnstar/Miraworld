@@ -12,7 +12,9 @@
     margin-top: 80px;
 }
 
-
+.set-mid h5{
+    color: var(--dark-font);
+}
 
 .set-links{
     display: flex;
